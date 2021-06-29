@@ -1,0 +1,587 @@
+body {
+  background-color: #F9FAFE;
+  font-family: 'Montserrat', sans-serif;
+  color: #d9dce2;
+}
+
+.navbar-brand img {
+  max-height: 60px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #061334;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #061334 !important;
+}
+
+.nav-item {
+  margin-top: -10px;
+  font-size: 18px;
+}
+
+.btn-navbar-right {
+  margin-top: -32px !important;
+  margin-bottom: -20px !important;
+  margin-right: -18px !important;
+  height: 70px;
+}
+
+.btn-login {
+  background-color: transparent;
+  color: #ffffff;
+  margin-top: -70px;
+  background-size: cover;
+}
+
+.btn-login:hover {
+  background-color: #0a2058;
+  color: #ffffff;
+}
+
+header {
+  margin-top: -95px;
+  padding: 250px 0 270px;
+  background-image: url("../images/header1.jpg");
+  background-size: cover;
+}
+
+header h1 {
+  color: #fff;
+  font-family: 'Merriweather', sans-serif;
+  font-weight: bold;
+  font-size: 42px;
+  opacity: 0.7;
+}
+
+header .btn-get-started {
+  background-color: #fd9342;
+  color: #ffffff;
+  font-family: 'Merriweather', sans-serif;
+  font-weight: bold;
+}
+
+header .btn-get-started:hover {
+  background-color: #fa740e;
+  color: #ffffff;
+  font-family: 'Merriweather', sans-serif;
+  font-weight: bold;
+}
+
+.section-stats {
+  margin-top: -50px;
+}
+
+.section-stats .stats-detail {
+  padding-top: 15px;
+  background-color: #fff;
+  padding-left: 40px;
+}
+
+.section-stats .stats-detail h2 {
+  font-family: Merriweather;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 30px;
+  text-align: center;
+  color: #071c4d;
+}
+
+.section-stats .stats-detail p {
+  font-family: Merriweather;
+  font-weight: lighter;
+  font-size: 27px;
+  line-height: 30px;
+  text-align: center;
+  color: #23479b;
+}
+
+.section-popular {
+  min-height: 521px;
+  background-color: #061334;
+  margin-top: -50px;
+  margin-bottom: -200px;
+}
+
+.section-popular .section-popular-heading {
+  margin-top: 150px;
+}
+
+.section-popular .section-popular-heading h2 {
+  font-family: 'Merriweather', sans-serif;
+  font-weight: bold;
+  font-size: 42px;
+}
+
+.section-popular .section-popular-heading p {
+  font-size: 16px;
+}
+
+.section-popular-content .section-popular-travel .card-travel {
+  min-height: 380px;
+  background-color: #ddd;
+  color: #ffffff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 31px;
+}
+
+.section-popular-content .section-popular-travel .travel-country {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.section-popular-content .section-popular-travel .travel-location {
+  font-size: 23px;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details {
+  background-color: #fd9342;
+  color: #ffffff;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
+  background-color: #fa740e;
+  color: #ffffff;
+}
+
+.section-networks {
+  background-color: #ffffff;
+  margin-top: -220px;
+  padding-top: 250px;
+  padding-bottom: 50px;
+}
+
+.section-networks h2 {
+  font-family: 'Merriweather', sans-serif;
+  font-weight: bold;
+  color: #061334;
+}
+
+.section-networks p {
+  color: #061334;
+  font-weight: bolder;
+}
+
+.section-networks img {
+  max-width: 100%;
+}
+
+.section-testimonial-heading {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f7f9ff));
+  background: linear-gradient(#fff 0%, #f7f9ff 100%);
+  padding-top: 50px;
+  min-height: 500px;
+}
+
+.section-testimonial-heading h2 {
+  margin-top: 30px;
+  font-family: Merriweather;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 54px;
+  text-align: center;
+  color: #061334;
+}
+
+.section-testimonial-heading p {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #061334;
+  opacity: 0.84;
+}
+
+.section-testimonial-content {
+  margin-top: -250px;
+  padding-bottom: 50px;
+}
+
+.section-testimonial-content .card-testimonial {
+  padding: 40px 20px 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.section-testimonial-content .testimonial-content {
+  min-height: 330px;
+}
+
+.section-testimonial-content h3 {
+  font-family: Merriweather;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 54px;
+  text-align: center;
+  color: #061334;
+}
+
+.section-testimonial-content .testimonial {
+  width: 297px;
+  height: 63px;
+  font-family: Montserrat;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #6e6e6e;
+}
+
+.section-testimonial-content .trip-to {
+  font-family: Merriweather;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 54px;
+  text-align: center;
+  color: #6e6e6e;
+}
+
+.section-testimonial-content hr {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.section-testimonial-content .btn-get-started {
+  background-color: #fd9342;
+  color: #ffffff;
+  font-family: 'Merriweather', sans-serif;
+  font-weight: bold;
+}
+
+.section-testimonial-content .btn-get-started:hover {
+  background-color: #fa740e;
+  color: #ffffff;
+  font-family: 'Merriweather', sans-serif;
+  font-weight: bold;
+}
+
+.section-testimonial-content .btn-need-help {
+  background-color: #DFD8D2;
+  color: #7B7C81;
+  font-family: 'Merriweather', sans-serif;
+}
+
+.section-testimonial-content .btn-need-help:hover {
+  background-color: #c4beb9;
+  color: #696a6e;
+  font-family: 'Merriweather', sans-serif;
+}
+
+.section-footer h5 {
+  color: #061334;
+  font-weight: 500;
+}
+
+.section-footer a {
+  color: #061334;
+}
+
+.section-details-header {
+  min-height: 350px;
+  background-color: #071C4D;
+  margin-top: -90px;
+}
+
+.section-details-content {
+  margin-top: -195px;
+  min-height: 100vh;
+}
+
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+.section-details-content .breadcrumb-item {
+  color: #EAECF3;
+  font-weight: lighter;
+  font-family: 'Merriweather', sans-serif;
+}
+
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #EAECF3;
+}
+
+.section-details-content .breadcrumb-item + .breadcrumb-item::before {
+  color: #EAECF3;
+}
+
+.section-details-content .card-details {
+  padding: 28px;
+  border-radius: 10px;
+}
+
+.section-details-content .card-details h1 {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: left;
+  color: #071c4d;
+}
+
+.section-details-content .card-details h2 {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+  color: #071c4d;
+}
+
+.section-details-content .card-details p {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: left;
+  color: #8f8a8a;
+}
+
+.section-details-content .card-details .trip-informations th {
+  font-family: Montserrat;
+  font-weight: 1000;
+  font-size: 18px;
+  text-align: left;
+  color: #2c50a3;
+  padding-top: 15px;
+}
+
+.section-details-content .card-details .trip-informations td {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: right;
+  color: #aab0bf;
+}
+
+.section-details-content .card-details .trip-informations .text-blue {
+  color: #213c7a;
+  font-weight: bold;
+}
+
+.section-details-content .card-details .trip-informations .text-orange {
+  color: orangered;
+  font-weight: bold;
+}
+
+.section-details-content .card-details .payment-instruction {
+  font-weight: 400;
+  font-size: 16px;
+  color: #b1b1b1;
+}
+
+.section-details-content .card-details .bank .bank-item .description {
+  overflow: hidden;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.section-details-content .card-details .bank .bank-item .description h3 {
+  font-size: 18px;
+  color: #061334;
+  margin-bottom: 0;
+}
+
+.section-details-content .card-details .bank .bank-item .description p {
+  font-weight: bold;
+  font-size: 16px;
+  color: #6f7c9e;
+}
+
+.section-details-content .card-details .bank .bank-image {
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+  float: left;
+  margin-right: 10px;
+}
+
+.section-details-content .card-details h3 {
+  font-family: Merriweather;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: left;
+  color: #061334;
+}
+
+.section-details-content .card-details .disclaimer {
+  font-family: Merriweather;
+  font-weight: 300;
+  font-size: 12px;
+  text-align: left;
+  color: #b1b1b1;
+}
+
+.section-details-content .card-details .gj-datepicker .datepicker {
+  border-right: 0;
+}
+
+.section-details-content .card-details .input-group-append .btn {
+  padding-right: 4px;
+}
+
+.section-details-content .btn-add-now {
+  background-color: #061334;
+  margin-left: 8px;
+  font-family: Merriweather;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  color: #f1f2f6;
+}
+
+.section-details-content .btn-add-now:hover {
+  background-color: #133079;
+  margin-left: 8px;
+  font-family: Merriweather;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  color: #f1f2f6;
+}
+
+.section-details-content .card-right {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
+}
+
+.section-details-content .features {
+  margin-top: 30px;
+}
+
+.section-details-content .features h3 {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+  color: #071c4d;
+  margin-bottom: 0;
+}
+
+.section-details-content .features p {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: left;
+  color: #aab0bf;
+  margin-bottom: 0;
+}
+
+.section-details-content .features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content .features .features-image {
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+.section-details-content .gallery .xzoom-container {
+  display: block;
+}
+
+.section-details-content .gallery .xzoom-container .xzoom {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.section-details-content .gallery .xzoom-container .xactive {
+  border: 1px solid #eee7e7;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.section-details-content .member .member-image {
+  width: 40px;
+  height: 40px;
+  background: transparent;
+}
+
+.section-details-content .join-container {
+  margin-top: -16px;
+}
+
+.section-details-content .btn-join-now {
+  height: 45px;
+  background: #ff9e53;
+  font-family: Merriweather;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  color: #f1f2f6;
+  padding: 0%;
+}
+
+.section-details-content .btn-join-now:hover {
+  height: 45px;
+  background: #c06e2f;
+  font-family: Merriweather;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  color: #f1f2f6;
+  padding: 0%;
+}
+
+.section-success {
+  height: 90vh;
+}
+
+.section-success h1 {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  color: #071c4d;
+}
+
+.section-success p {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: #b1b1b1;
+}
+
+.section-success .btn-home-page {
+  width: 180px;
+  height: 45px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  background: #061334;
+  border: 1px solid #707070;
+  font-family: Merriweather;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 33px;
+  text-align: center;
+  color: #f1f2f6;
+}
+
+.section-success .btn-home-page:hover {
+  width: 180px;
+  height: 45px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  background: #1f3670;
+  border: 1px solid #707070;
+  font-family: Merriweather;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 33px;
+  text-align: center;
+  color: #f1f2f6;
+}
+/*# sourceMappingURL=main.css.map */
